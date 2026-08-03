@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: black;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+    background-color: #fff;
+    line-height: 1-8;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h1
+h2
+h3
+h4{
+    font-family: "Raleway" sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    font-family: "Raleway" sans-serif;
+}
+input{
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+header{
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 160px;
+}
+nav{
+    display: flex;
+    gap: 45px;
+}
+nav a{
+    font-family: "Raleway" sans-serif;
+    font-size: 16px;
+    color: hsl(243, 87%, 12%);
+    transition: 0.3s;
+}
+nav a:hover{
+    color: hsl(224, 93%, 58%);
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 60px;
+}
+.hero .text{
+    flex: 1;
+}
+.hero-image{
+    flex: 1;
+}
+.hero-image img{
+    width: 100%;
+}
+.hero h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 550px;
+    color: hsl(243, 87%, 12%);
+}
+.hero form{
+display: flex;
+gap: 15px;
+}
+.hero input{
+    width: 460px;
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 75%);
+    border-radius: 4px;
+    transition: 3s;
+    outline: none;
+    margin-right: 15px;
+}
+.hero input:focus{
+    border: 1px solid hsl(0, 0%, 75%);
+}
+.hero button{
+    background-color: hsl(243, 93%, 58%);
+    color: #fff;
+    padding: 15px 60px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.hero .text button{
+    margin-bottom: 0;
+}
+
+.hero .text>*{
+    margin-bottom: 25p;
+}
+
+.curve{
+    width: 100%;
+    
+}
+.productivity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 5%;
+    background-color: hsl(240, 75%, 98%);
+    gap: 60px;
+}
+.productivity .text{
+    flex: 1;
+}
+.productivity-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productive-image img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+.productivity-text h2{
+    font-family: "Raleway" sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.productivity-text p{
+    max-width: 540px;
+    margin-bottom: 20px;
+}
+
+.fylo-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.fylo-link img{
+    width: 18px;
+}
+.productive-image{
+    width: 1;
+}
+.productive .image img{
+    width: 100%;
+}
+.productive h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.productive a{
+    display: inline-block;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    padding-bottom: 6px;
+    margin-bottom: 40px;
+    transition: .3s;
+}
+.productive a:hover{
+    color: hsl(170, 55%, 55%);
+}
+.card{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 370px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile img{
+    width: 45px;
+    height: 43px;
+    border-radius: 50%;
+}
+.profile-info h4{
+    font-size: 15px;
+    font-weight: 700;
+}
+.profile-info p{
+    font-size: 12px;
+    margin: 0
+}
+.access{
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 5%;
+    gap: 80;
+}
+.access-text{
+    width: 45%;
+}
+
+.access-text h2{
+    font-family: "Raleway" sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.access-text p{
+    max-width: 500px;
+}
+.access-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 660px;
+    margin-left: auto;
+}
+.access-form input{
+    width: 460px;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 75%);
+    border-radius: 3px;
+    transition: 3s;
+    outline: none;
+    margin-right: 15px;
+    margin-bottom: 12px;
+}
+.access-form button{
+    padding: 12px 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.access button:hover{
+    background-color: hsl(224, 93%, 68%);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding: 80px 70px 50px;
+    background-color: hsl(243, 87%, 12%);
+}
+.footer-logo{
+    width: 160px;
+    margin-bottom: 40px;
+    filter: brightness(0) invert(1);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: flex-start;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.contact img{
+    width: 14px;
+    gap: 15px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social img{
+    width: 30px;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+    
+}
+.social img:hover{
+    color: hsl(233, 92%, 20%);
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.footer-links ul a{
+    color: white;
+    font-size: 16px;
+    font-family: 'open sans' sans-serif;
+    transition: color 0.3s ease;
+}
+@media (max-width: 375px){
+    header{
+        padding: 25px 20px;
+    }
+    .hero,
+    .productivity,
+    .access,
+    .footer-content{
+        flex-direction: column;
+    }
+    .hero,
+    .productivity,
+    .access{
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .hero input,
+    .hero button,
+    .access-form input,
+    .access-form button{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .productivity .image img,
+    .hero .imagr img{
+        width: 100%;
+    }
+}
